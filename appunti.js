@@ -155,7 +155,10 @@ function pippo(nome, cognome) {
 
 pippo("Ignazio", "Stagnitta" );
 
-*/
+
+
+
+
 
 //Ricicliamo la funzione cambiando i parametri
 
@@ -169,3 +172,54 @@ function pippo(nome, cognome) {
 pippo("Ignazio", "Stagnitta" );
 console.log('qui faccio altro');
 pippo("Sandro", "Lo Piccolo");
+
+
+
+
+//Se mi serve popolare una variabile e quindi avere al suo interno il risultato devo usare return
+
+
+
+
+
+const nomeVariabile = "Pippo";
+// Con cost io costruisco una Variabile soltanto in lettura
+
+nomeVariabile = "Pluto"; 
+//Se provo (cosi come fatto su) a cambiare il valore js non me lo permette, dandomi errore
+
+//Regola assoluta per quanto riguarda le variabili di tipo primitivo
+
+//Ma se io lavoro con un oggetto, quindi una variabile che non è di tipo primitivo...
+
+const nomeVariabile = []
+
+nomeVariabile = "Pluto"; // cosi non è possibile...
+
+//Se lavoro all'interno dell'array mi è permesso...
+
+nomeVariabile["Pluto"];
+
+//oppure...
+
+const nomeVariabile = pippo + pluto; ???
+
+*/
+const nomeVariabile = "";
+
+
+
+
+let valore1 = "pippo";
+
+valore1 = "pluto";
+
+function processoQualcosa() {
+    let valore1= "Teresa";
+    valore1 = "Franco";
+}
+
+console.log(valore1);
+
+//output: pluto
+
