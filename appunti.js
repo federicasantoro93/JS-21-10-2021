@@ -1,3 +1,4 @@
+/*
 //Incrementiamo di un valore
 
 for(let nomeVariabile = 0; nomeVariabile < 20; nomeVariabile++ )
@@ -47,7 +48,7 @@ let nomi = ['Giorgio', 'francesca', 256, false, ['uno', ['pippo', 'pluto'], "tre
 for(let index = 0; index < nomi.lenght; index++)
 
 {
-    console.log( index + 1 ) + ":" + nomi[index] );
+    console.log( index + 1 ) + ":" + nomi[index];
 }
 
 
@@ -108,3 +109,63 @@ for( let ilNostroindice in nomi) {
 
     console.log( nomi[ilNostroindice]  );
 }
+
+
+
+//Funzione
+
+ function pippo(nome, cognome) {
+     return  nome
+ }
+
+ let getName = pippo("ignazio", "stagnitta");
+
+ console.log(getName);
+
+
+
+//Funzione
+
+
+ function pippo(nome, cognome) {
+
+    let fullName = nome + " " + cognome;
+
+    return  fullName;
+}
+
+let getName = pippo("Ignazio", "Stagnitta"); //Utilizzo la funzione richiamandola (pippo)
+
+console.log(getName); 
+
+console.log ( pippo("Michele", "amato") ); //Riutilizzo la stessa funzione richiamandola
+
+
+
+
+
+//Altro esempio
+
+function pippo(nome, cognome) {
+
+    let fullName = nome + " " + cognome;
+
+    console.log(fullName);
+}
+
+pippo("Ignazio", "Stagnitta" );
+
+*/
+
+//Ricicliamo la funzione cambiando i parametri
+
+function pippo(nome, cognome) {
+
+    let fullName = nome + " " + cognome;
+
+    console.log(fullName);
+}
+
+pippo("Ignazio", "Stagnitta" );
+console.log('qui faccio altro');
+pippo("Sandro", "Lo Piccolo");
