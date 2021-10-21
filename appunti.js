@@ -245,4 +245,72 @@ let nome = "pluto" //JS da errore perchè si prova a inizializzare una variabile
 
 ----------------------------------------
 
+
+const newName = prompt("Inserisci nome")
+
+console.log(newName)
+
+---------------
+
+const names  = ['Margherita', 'Roberto', 'Maria', 'Stefania'];
+console.log(names);
+
+---------
+
+// Aggiungere il valore di input all'array
+
+const newName = prompt("Inserisci nome")
+
+console.log(newName)
+
+ name1 = Margherita;
+ name2 = Roberto;
+ name3 = Maria;
+ name4 = Stefania;
+
+const names = [];
+
+name.push(name1)
+name.push(name1)
+name.push(name1)
+name.push(name1)
+name.push(newName)
+
+console.log(names);
+
+// In questo modo il valore dell'input sarà assegnato alla variabile newName
+
+--------
+
+
+name1 = Margherita;
+ name2 = Roberto;
+ name3 = Maria;
+ name4 = Stefania;
+
+const names = [];
+
+name.push(name1)
+name.push(name1)
+name.push(name1)
+name.push(name1)
+name.push(newName)
+
+console.log(names);
+
+const point = prompt("inserisci i punteggi separati da virgola", "2, 4, 7, 10")
+
+console.log(points.lenght);      // Output: 8
+
+//Con lo split torna sempre un elemento dentro un array
+
+------------------
 */
+
+
+
+
+
+
+
+
