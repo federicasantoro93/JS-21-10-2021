@@ -38,3 +38,73 @@ for(let index = 0; index < nomi.lenght; index++)
 }
 
 //In console avrò tutto l'array ciclato
+
+
+//Ricordando che alla variabile index abbiamo assegnato il valore 0
+
+let nomi = ['Giorgio', 'francesca', 256, false, ['uno', ['pippo', 'pluto'], "tre"]];
+
+for(let index = 0; index < nomi.lenght; index++)
+
+{
+    console.log( index + 1 ) + ":" + nomi[index] );
+}
+
+
+
+// for of - restituisce i nomi
+
+let nomi  = ['Giorgio', 'francesca', 256, false, 'pippo', 'pluto'];
+for ( let nome of nomi) {
+    console.log ( nome );
+}
+
+// for in - restituisce gli indici
+let nomi  = ['Giorgio', 'francesca', 256, false, 'pippo', 'pluto'];
+
+for (let index in nomi){
+    console.log(index);
+}
+
+// output 
+//0 
+//1
+//2
+//3 
+//4
+//5 
+
+
+
+//Altro esempio
+
+let nomi  = ['Giorgio', 'francesca', 256, false, 'pippo', 'pluto'];
+
+for( let ilNostroindice in nomi) {
+
+    console.log( nomi[ilNostroindice] );
+}
+
+
+//Supponimo che volessi stampare tutti i valori tranne il numero, mettiamo una condizione con if
+
+let nomi  = ['Giorgio', 'francesca', 256, false, 'pippo', 'pluto'];
+
+for( let ilNostroindice in nomi) {
+
+    if( ilNostroindice != 2 ) //se si verifica la condizione per cui l'indice è diverso da due...
+
+    console.log( nomi[ilNostroindice]  );
+ } //...allora stampa questo!
+
+
+
+ let nomi  = ['Giorgio', 'francesca', 256, false, 'pippo', 'pluto'];
+
+for( let ilNostroindice in nomi) {
+
+   let tipo = typeof nomi[ilNostroindice];
+     if( tipo != 'string' ) //se gli elementi sono di tipo diverso da stringa
+
+    console.log( nomi[ilNostroindice]  );
+}
