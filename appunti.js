@@ -204,7 +204,12 @@ nomeVariabile["Pluto"];
 
 const nomeVariabile = pippo + pluto; ???
 
-*/
+
+
+
+
+-------------------------------
+
 const nomeVariabile = "";
 
 
@@ -223,3 +228,21 @@ console.log(valore1);
 
 //output: pluto
 
+-------------------------------
+
+let nome; //definire una variabile
+
+nome = "pippo"; //assegnare un valore alla variabile
+
+----------------------------
+
+
+let nome =  "pippo;" //definisco una variabile e gli assegno un valore
+
+nome = "pluto" //richiamo l'etichetta della variabile e gli assegno un altro valore
+
+let nome = "pluto" //JS da errore perchè si prova a inizializzare una variabile che già esiste
+
+----------------------------------------
+
+*/
